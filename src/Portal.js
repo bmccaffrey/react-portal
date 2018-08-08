@@ -4,6 +4,6 @@ const portalRoot = document.getElementById('portal');
 
 export default class Portal extends Component {
   render() {
-    return <div />;
+    return ReactDOM.createPortal();
   }
 }
