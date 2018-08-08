@@ -5,6 +5,7 @@ const portalRoot = document.getElementById('portal');
 export default class Portal extends Component {
   constructor() {
     super();
+    this.el = document.createElement('div');
   }
 
   render() {
