@@ -4,6 +4,7 @@ const portalRoot = document.getElementById('portal');
 
 export default class Portal extends Component {
   render() {
-    return ReactDOM.createPortal();
+    const { children } = this.props;
+    return ReactDOM.createPortal(children);
   }
 }
